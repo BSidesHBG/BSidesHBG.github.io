@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Floyd --
+    Dana --
+    TBD -- TBD
+    TBD -- TBD
+    TBD -- TBD
+    TBD -- TBD
+    Michael Scott -- @Michael__Scott2
+
+# THANKS
+
+    https://pages.github.com/
+    aj -- @ajlkn | html5up.net
+    
+    
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Responsive Tools
+    FontAwesome
