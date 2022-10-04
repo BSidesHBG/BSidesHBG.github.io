@@ -1002,6 +1002,22 @@ header.major > :last-child {
 header.main > :last-child {
   margin: 0 0 1em 0; }
 
+/* Section Code of Conduct */
+section.codeofconduct {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+section.codeofconduct h3 {
+  text-align: center;
+  color: #f8a518;
+}
+
+section.codeofconduct ul {
+  margin-left: 5%;
+}
+
 /* Section .map-responsive */
 section.map-responsive{
 
