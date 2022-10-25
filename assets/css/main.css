@@ -1032,7 +1032,7 @@ section.sponsors ul + p {
 /* Section Sponsortable */
 
 section.sponsortable div {
-  flex-basis: 30%;
+  flex-basis: 25%;
   min-width: 300px;
   margin: auto;
 }
