@@ -1045,18 +1045,29 @@ section.sponsortable i {
   font-size: 4em;
 }
 
-section.sponsortable #bronze {
-  color: #CD7F32;
-}
-
 section.sponsortable #silver {
-  color: #C0C0C0;
+  background-color: #C0C0C0;
+  font-size: 1.3em;
+  padding: 1%;
 }
 
 section.sponsortable #gold {
-  color: #FFD700;
+  background-color: #FFD700;
+  font-size: 1.3em;
+  padding: 1%;
 }
 
+section.sponsortable #platinum {
+  background-color: #e5e4e2;
+  font-size: 1.3em;
+  padding: 1%;
+}
+
+section.sponsortable #titanium {
+  background-color: #878681;
+  font-size: 1.3em;
+  padding: 1%;
+}
 
 /* Section .map-responsive */
 section.map-responsive{
