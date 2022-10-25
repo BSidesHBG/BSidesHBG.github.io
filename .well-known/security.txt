@@ -1,7 +1,0 @@
-# https://securitytxt.org/
-
-# Security Address
-Contact: mailto:<user>@<tbd>.tld
-Expires: 2023-04-01T05:00:00.000Z
-
-#To dos: Digitally Sign and link public key
