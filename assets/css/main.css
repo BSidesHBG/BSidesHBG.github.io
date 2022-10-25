@@ -1032,7 +1032,7 @@ section.sponsors ul + p {
 /* Section Sponsortable */
 
 section.sponsortable div {
-  flex-basis: 30%;
+  flex-basis: 25%;
   min-width: 300px;
   margin: auto;
 }
@@ -1045,18 +1045,29 @@ section.sponsortable i {
   font-size: 4em;
 }
 
-section.sponsortable #bronze {
-  color: #CD7F32;
-}
-
 section.sponsortable #silver {
-  color: #C0C0C0;
+  background-color: #C0C0C0;
+  font-size: 1.3em;
+  padding: 1%;
 }
 
 section.sponsortable #gold {
-  color: #FFD700;
+  background-color: #FFD700;
+  font-size: 1.3em;
+  padding: 1%;
 }
 
+section.sponsortable #platinum {
+  background-color: #e5e4e2;
+  font-size: 1.3em;
+  padding: 1%;
+}
+
+section.sponsortable #titanium {
+  background-color: #878681;
+  font-size: 1.3em;
+  padding: 1%;
+}
 
 /* Section .map-responsive */
 section.map-responsive{
@@ -1299,7 +1310,7 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
-    max-width: 40%; }
+    max-width: 30%; }
     .image.left img, .image.right img {
       width: 100%; }
   .image.left {
@@ -1637,13 +1648,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: rgba(245, 165, 24, 0.05); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(245, 106, 106, 0.15); }
+    background-color: rgba(245, 165, 24, 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -1683,13 +1694,13 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #ffc818; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #f45c5c; }
+      background-color: #c48313; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
