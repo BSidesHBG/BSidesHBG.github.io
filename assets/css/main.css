@@ -1033,7 +1033,9 @@ section.sponsors ul + p {
 
 section.sponsortable div {
   flex-basis: 25%;
-  min-width: 300px;
+  flex-grow: 2;
+  flex-shrink: .9;
+  /* min-width: 300px; */
   margin: auto;
 }
 
@@ -1063,10 +1065,18 @@ section.sponsortable #platinum {
   padding: 1%;
 }
 
-section.sponsortable #titanium {
-  background-color: #878681;
+section.sponsortable #diamond {
+  background-color: #b9f2ff;
   font-size: 1.3em;
   padding: 1%;
+}
+
+@media screen and (max-width: 480px) {
+  section.sponsortable div {
+    flex-basis: 90%;
+    /* min-width: 300px; */
+    margin: auto;
+  }
 }
 
 /* Section .map-responsive */
