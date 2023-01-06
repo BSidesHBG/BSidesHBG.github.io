@@ -1765,12 +1765,18 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+.profile span img { 
+  border-radius: 50%;
+}
 ul.profileicons {
   cursor: default;
   list-style: none;
   padding-left: 0;
   display:flex;
   justify-content: center; }
+  ul.profileicons.left{
+    padding-left: 1em;
+    justify-content: left; }
   ul.profileicons li {
     display: inline-block;
     padding: 0 1em 0 0; }
@@ -1780,6 +1786,7 @@ ul.profileicons {
       color: inherit; }
       ul.profileicons li .icon:before {
         font-size: 1.25em; }
+
 
 /* Features */
 .features {
