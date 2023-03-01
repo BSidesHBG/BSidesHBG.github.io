@@ -1358,6 +1358,9 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+.specialimage {
+  max-width: 800px;
+}
 /* List */
 ol {
   list-style: decimal;
@@ -1597,7 +1600,7 @@ table {
     padding: 0.75em 0.75em; }
   table th {
     color: #3d4449;
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
